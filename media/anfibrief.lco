@@ -4,12 +4,12 @@
 \usepackage{xcolor}
 \definecolor{navy}{RGB}{0, 0, 128}
 
-\usepackage{ngerman}
+\usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[scaled]{berasans}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
-\usepackage{fontawesome} % Icons in Adresskopf
+\usepackage{fontawesome5} % Icons in Adresskopf
 \renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{geometry}
