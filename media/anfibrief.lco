@@ -9,7 +9,7 @@
 \usepackage[scaled]{berasans}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
-\usepackage{fontawesome} % Icons in Adresskopf
+\usepackage{fontawesome5} % Icons in Adresskopf
 \renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{geometry}
@@ -113,7 +113,7 @@
 	\seticon{faAt} \quad kogni-fachschaft@fsi.uni-tuebingen.de \\
 	\seticon{faAt} \quad kogni-beratung@fsi.uni-tuebingen.de \\
 	\seticon{faGlobe} \quad www.fs-kogni.uni-tuebingen.de\\
-	\section{faInstagram} \quad @fsk.tuebingen\\
+	\seticon{faInstagram} \quad @fsk.tuebingen\\
 	\\ 
 	\seticon{faMapMarker} \quad Sand 14, Raum C102 \\ 
 	\hspace*{1em}\quad 72076 Tübingen
@@ -168,8 +168,8 @@
 	  \seticon{faPhone} \quad +49 7071 29-70413 \\
 	  \seticon{faAt} \quad fsi@fsi.uni-tuebingen.de \\
 	  \seticon{faGlobe} \quad  www.fsi.uni-tuebingen.de\\
-	  \section{faInstagram} \quad @fsi_tuebingen\\
-	  \section{faMastodon} \quad @fsi_tue\\
+	  \seticon{faInstagram} \quad @fsi\_tuebingen\\
+	  \seticon{faMastodon} \quad @fsi\_tue\\
 	  \\ 
 	  \seticon{faMapMarker} \quad Sand 14, Raum C125 \\ 
 	  \hspace*{1em}\quad 72076 Tübingen
