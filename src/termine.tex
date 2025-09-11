@@ -108,41 +108,12 @@
     \seticon{faBus}~\textbf{Bushaltestelle:} Sand Drosselweg (Linien 2 \& 6)
 \fi
 
-%Flunkyball
-\ifml
-    \item[Flunkyball -- Tuesday, October 21th \YEAR, Sand]~\\
-    Fancy a round of flunkyball? Come along, grab a bottle and have fun!
-    Perfect opportunity to switch off and meet new people.
-    Teams can be formed spontaneously and you can get beer from us for a small donation.\\
-    \seticon{faBus}~\textbf{bus stop:} Sand Drosselweg (bus lines 2 \& 6)
-\else
-    \item[Flunkyball -- Dienstag, 21. Oktober \YEAR, Sand]~\\
-    Lust auf 'ne Runde Flunkyball? Komm vorbei, schnapp dir 'ne Flasche und hab Spaß!
-    Perfekte Gelegenheit, um abzuschalten und neue Leute kennenzulernen.
-    Teams können spontan gebildet werden und Bier kannst du von uns gegen eine kleine Spende bekommen.\\
-    \seticon{faBus}~\textbf{Bushaltestelle:} Sand Drosselweg (Linien 2 \& 6)
-\fi
+
 
 % Nur damit die Seite richtig gebrochen wird.
 % TODO: Muss jedes jahr angepasst werden.
 % \ifbinfo \ifmaster \pagebreak  \fi \fi
 
-%Wanderung 1
-\ifml
-\item[Hike 1 -- Saturday, October 11th \YEAR, 10:30, on the Neckarinsel (Neckar Island)]~\\
-On a leisurely hike you will get to know not only your fellow students,
-but also a few lecturers and the worthwhile surroundings of Tübingen!
-% The meeting point is at the Neckarbrücke \emph{in front of the} restaurant \glqq Neckarmüller\grqq.\\
-The meeting point is on the Neckarinsel.\\
-\seticon{faBus}~\textbf{bus stop:} Neckarbrücke (lines 1--22)
-\else
-\item[Wanderung 1 -- Samstag, 11. Oktober \YEAR, 10:30 Uhr, auf der Neckarinsel]~\\
-Bei einer gemütlichen Wanderung lernt ihr neben euren Kommilitonen und Kommilitoninnen auch
-noch ein paar Dozierende und die sehenswerte Tübinger Umgebung kennen!
-% Der Treffpunkt ist bei der Neckarbrücke (\emph{vor} dem Gasthaus \glqq Neckarmüller\grqq).\\
-Der Treffpunkt ist auf der Neckarinsel.\\
-\seticon{faBus}~\textbf{Bushaltestelle:} Neckarbrücke (Linien 1--22)
-\fi
 
 % Nur damit die Seite richtig gebrochen wird.
 % TODO: Muss jedes jahr angepasst werden.
@@ -193,20 +164,6 @@ Der Treffpunkt ist auf der Neckarinsel.\\
     \seticon{faBus}~\textbf{Bushaltestelle:} Uni/Neue Aula oder Hölderlinstraße
 \fi
 
-%Spieleabend 2 %TODO time
-\ifml
-    \item[Board Game Night 2 -- Wednesday, October 15th \YEAR, Sand]~\\%, 19:00, Sand]~\\
-    We'd like to invite you to a board game night in relaxed atmosphere at the Sand.
-    We'll provide some games as well as drinks and snacks (for a small donation).
-    Even though our collection is growing steadily, we're more than happy if you bring along your own games!\\
-    \seticon{faBus}~\textbf{bus stop:} Sand Drosselweg (bus lines 2 \& 6)
-\else
-    \item[Spieleabend 2 -- Mittwoch, 15. Oktober \YEAR, Sand]~\\%, 19:00 Uhr, Sand]~\\
-    Wir möchten dich zu einem kleinen Analog-Spieleabend mit guter Gesellschaft und entspannter Atmosphäre auf dem Sand einladen.
-    Für einige Spiele sowie Getränke und Knabberkram (gegen einen kleinen Obolus) sorgt die Fachschaft.
-    Wir freuen uns natürlich sehr, wenn du auch eigene Spiele mitbringst, obwohl unsere Sammlung schon beachtlich ist!\\
-    \seticon{faBus}~\textbf{Bushaltestelle:} Sand Drosselweg (Linien 2 \& 6)
-\fi
 
 % Frühstück
 \ifbachelor
@@ -246,9 +203,27 @@ Der Treffpunkt ist auf der Neckarinsel.\\
     \seticon{faBus}~\textbf{Bushaltestelle:} Sand Drosselweg (Linien 2 \& 6)
 \fi
 
+%Wanderung 1
+\ifml
+	\item[Hike 1 -- Saturday, October 11th \YEAR, 10:30, on the Neckarinsel (Neckar Island)]~\\
+	On a leisurely hike you will get to know not only your fellow students,
+	but also a few lecturers and the worthwhile surroundings of Tübingen!
+	% The meeting point is at the Neckarbrücke \emph{in front of the} restaurant \glqq Neckarmüller\grqq.\\
+	The meeting point is on the Neckarinsel.\\
+	\seticon{faBus}~\textbf{bus stop:} Neckarbrücke (lines 1--22)
+\else
+	\item[Wanderung 1 -- Samstag, 11. Oktober \YEAR, 10:30 Uhr, auf der Neckarinsel]~\\
+	Bei einer gemütlichen Wanderung lernt ihr neben euren Kommilitonen und Kommilitoninnen auch
+	noch ein paar Dozierende und die sehenswerte Tübinger Umgebung kennen!
+	% Der Treffpunkt ist bei der Neckarbrücke (\emph{vor} dem Gasthaus \glqq Neckarmüller\grqq).\\
+	Der Treffpunkt ist auf der Neckarinsel.\\
+	\seticon{faBus}~\textbf{Bushaltestelle:} Neckarbrücke (Linien 1--22)
+\fi
+
+
 % Erste Vorlesung
 \ifbachelor
-    \item[Erste Vorlesung -- Montag, 14. Oktober \YEAR, \ifwintersemester 8:00 Uhr, \else 10:00 Uhr, \fi Morgenstelle]~\\
+    \item[Erste Vorlesung -- Montag, 13. Oktober \YEAR, \ifwintersemester 8:00 Uhr, \else 10:00 Uhr, \fi Morgenstelle]~\\
     Deine erste Vorlesung beginnt um
     \ifwintersemester 8:00 Uhr -- Du hast „Mathematik für Informatik 1“  \fi
     \ifsommersemester 10:00 Uhr -- Du hast „Mathematik für Informatik 2“  \fi
@@ -257,22 +232,9 @@ Der Treffpunkt ist auf der Neckarinsel.\\
     \seticon{faBus}~\textbf{Bushaltestelle:} BG Unfallklinik (Linien 5, 13, 14, 17, 18, 19, X15)
 \fi
 
-% Kneipentour 2 % TODO Uhrzeit
-\ifml
-\item[Pub Crawl 2 -- Tuesday, October 14th \YEAR]~\\
-    Ready for round two? Join us for another pub crawl through Tübingen's best spots.
-    We'll split into smaller groups again and visit the different bars in the historic town center.
-    Please bring enough cash, most places we will visit don't accept cards (\emph{none whatsoever}).
-\else
-\item[Kneipentour 2 -- Dienstag, 14. Oktober \YEAR]~\\
-    Bereit für Runde Zwei? Komm mit auf eine weitere Kneipentour durch die besten Kneipen Tübingens.
-    Wir werden uns wieder in kleinere Gruppen aufteilen und die verschiedenen Bars in der Altstadt besuchen.
-    Bitte bringe genügend Bargeld mit, man kann in fast keiner der Tübinger Bars mit EC-Karte zahlen! -- Volksbanken und Sparkassen finden sich bei Bedarf in der Stadt.
-\fi
-
 % Filmeabends % TODO date & time % TODO invite ML, movie language?
 \ifml
-    \item[TODO Movie Night -- Tuesday, October 15th \YEAR, 19:00, Sand]~\\%, 19:00, Sand]~\\
+    \item[TODO Movie Night -- Tuesday, October 14th \YEAR, 19:00, Sand]~\\%, 19:00, Sand]~\\
     % Falls im Wintersemester ein Filmeabend veranstaltet wird, sollte in der Einladung erwähnt werden, auf welcher
     % Sprache der Film gezeigt wird.
     In the evening, we're hosting a movie night, and we'd love for you to join us!
@@ -281,12 +243,41 @@ Der Treffpunkt ist auf der Neckarinsel.\\
     Drinks will be provided for a small donation.\\
     \seticon{faBus}~\textbf{bus stop:} Sand Drosselweg (bus lines 2 \& 6)
 \else
-    \item[TODO Filmeabend -- Dienstag, 15. Oktober, 19:00 Uhr, Sand]~\\
+    \item[TODO Filmeabend -- Dienstag, 14. Oktober \YEAR, 19:00 Uhr, Sand]~\\
     Am Abend veranstalten wir unseren Filmeabend und wir laden euch herzlich dazu ein!\\
     Schaut mit uns einen Film an und entspannt euch nach euren ersten Tagen im Studileben.
     Bringt eure neuen Freunde, Freundinnen und eure Lieblingssnacks mit und los geht's!\\
     Für Getränke ist gegen eine kleine Spende gesorgt.\\
     \seticon{faBus}~\textbf{Bushaltestelle:} Sand Drosselweg (Linien 2 \& 6)
+\fi
+
+
+%Spieleabend 2 %TODO time
+\ifml
+	\item[Board Game Night 2 -- Wednesday, October 15th \YEAR, Sand]~\\%, 19:00, Sand]~\\
+	We'd like to invite you to a board game night in relaxed atmosphere at the Sand.
+	We'll provide some games as well as drinks and snacks (for a small donation).
+	Even though our collection is growing steadily, we're more than happy if you bring along your own games!\\
+	\seticon{faBus}~\textbf{bus stop:} Sand Drosselweg (bus lines 2 \& 6)
+\else
+	\item[Spieleabend 2 -- Mittwoch, 15. Oktober \YEAR, Sand]~\\%, 19:00 Uhr, Sand]~\\
+	Wir möchten dich zu einem kleinen Analog-Spieleabend mit guter Gesellschaft und entspannter Atmosphäre auf dem Sand einladen.
+	Für einige Spiele sowie Getränke und Knabberkram (gegen einen kleinen Obolus) sorgt die Fachschaft.
+	Wir freuen uns natürlich sehr, wenn du auch eigene Spiele mitbringst, obwohl unsere Sammlung schon beachtlich ist!\\
+	\seticon{faBus}~\textbf{Bushaltestelle:} Sand Drosselweg (Linien 2 \& 6)
+\fi
+
+% Kneipentour 2 % TODO Uhrzeit
+\ifml
+	\item[Pub Crawl 2 -- Friday, October 17th \YEAR]~\\
+	Ready for round two? Join us for another pub crawl through Tübingen's best spots.
+	We'll split into smaller groups again and visit the different bars in the historic town center.
+	Please bring enough cash, most places we will visit don't accept cards (\emph{none whatsoever}).
+\else
+	\item[Kneipentour 2 -- Freitag, 17. Oktober \YEAR]~\\
+	Bereit für Runde Zwei? Komm mit auf eine weitere Kneipentour durch die besten Kneipen Tübingens.
+	Wir werden uns wieder in kleinere Gruppen aufteilen und die verschiedenen Bars in der Altstadt besuchen.
+	Bitte bringe genügend Bargeld mit, man kann in fast keiner der Tübinger Bars mit EC-Karte zahlen! -- Volksbanken und Sparkassen 	finden sich bei Bedarf in der Stadt.
 \fi
 
 % Nur damit die Seite richtig gebrochen wird.
@@ -350,6 +341,21 @@ Der Treffpunkt ist auf der Neckarinsel.\\
     \seticon{faBus}~\textbf{Bushaltestelle:} Sand Drosselweg (Linien 2 \& 6)
 \fi
 
+%Flunkyball
+\ifml
+	\item[Flunkyball -- Tuesday, October 21th \YEAR, Sand]~\\
+	Fancy a round of flunkyball? Come along, grab a bottle and have fun!
+	Perfect opportunity to switch off and meet new people.
+	Teams can be formed spontaneously and you can get beer from us for a small donation.\\
+	\seticon{faBus}~\textbf{bus stop:} Sand Drosselweg (bus lines 2 \& 6)
+\else
+	\item[Flunkyball -- Dienstag, 21. Oktober \YEAR, Sand]~\\
+	Lust auf 'ne Runde Flunkyball? Komm vorbei, schnapp dir 'ne Flasche und hab Spaß!
+	Perfekte Gelegenheit, um abzuschalten und neue Leute kennenzulernen.
+	Teams können spontan gebildet werden und Bier kannst du von uns gegen eine kleine Spende bekommen.\\
+	\seticon{faBus}~\textbf{Bushaltestelle:} Sand Drosselweg (Linien 2 \& 6)
+\fi
+
 % % Capture the Flag
 % \ifml
 %     \item[Capture the Flag -- Sunday, October 20th \YEAR, 14:00, Sand]~\\
@@ -363,23 +369,6 @@ Der Treffpunkt ist auf der Neckarinsel.\\
 %     \seticon{faBus}~\textbf{Bushaltestelle:} Sand Drosselweg (Linien 2 \& 6)
 % \fi
 
-%Wanderung 2
-\ifml
-    \item[Hike 2 -- Saturday, October 25th \YEAR, 10:30, on the Neckarinsel (Neckar Island)]~\\
-    Time for another hike! Join us for a relaxing stroll through the beautiful Tübingen countryside.
-    This is a great chance to enjoy nature, chat with fellow students, and maybe even meet some of your professors.
-    % The meeting point is at the Neckarbrücke \emph{in front of the} restaurant \glqq Neckarmüller\grqq.\\
-    The meeting point is on the Neckarinsel.\\
-    \seticon{faBus}~\textbf{bus stop:} Neckarbrücke (lines 1--22)
-\else
-    \item[Wanderung 2 -- Samstag, 25. Oktober \YEAR, 10:30 Uhr, auf der Neckarinsel]~\\
-    Zeit für eine weitere Wanderung! Komm mit auf einen entspannten Spaziergang durch die schöne Umgebung Tübingens.
-    Bei einer gemütlichen Wanderung lernt ihr eure Kommilitonen und Kommilitoninnen
-    und vielleicht auch ein paar Dozierende kennen!
-    % Der Treffpunkt ist bei der Neckarbrücke (\emph{vor} dem Gasthaus \glqq Neckarmüller\grqq).\\
-    Der Treffpunkt ist auf der Neckarinsel.\\
-    \seticon{faBus}~\textbf{Bushaltestelle:} Neckarbrücke (Linien 1--22)
-\fi
 
 %Clubhausfest
 \ifml
@@ -398,6 +387,25 @@ Der Treffpunkt ist auf der Neckarinsel.\\
     %Das anfängliche Chaos des Vorlesungsbeginns hat sich gelegt und auch an diesem Donnerstag findet das Clubhausfest statt.\\
     \seticon{faBus}~\textbf{Bushaltestelle:} Uni/Neue Aula oder Hölderlinstraße
 \fi
+
+%Wanderung 2
+\ifml
+	\item[Hike 2 -- Saturday, October 25th \YEAR, 10:30, on the Neckarinsel (Neckar Island)]~\\
+	Time for another hike! Join us for a relaxing stroll through the beautiful Tübingen countryside.
+	This is a great chance to enjoy nature, chat with fellow students, and maybe even meet some of your professors.
+	% The meeting point is at the Neckarbrücke \emph{in front of the} restaurant \glqq Neckarmüller\grqq.\\
+	The meeting point is on the Neckarinsel.\\
+	\seticon{faBus}~\textbf{bus stop:} Neckarbrücke (lines 1--22)
+\else
+	\item[Wanderung 2 -- Samstag, 25. Oktober \YEAR, 10:30 Uhr, auf der Neckarinsel]~\\
+	Zeit für eine weitere Wanderung! Komm mit auf einen entspannten Spaziergang durch die schöne Umgebung Tübingens.
+	Bei einer gemütlichen Wanderung lernt ihr eure Kommilitonen und Kommilitoninnen
+	und vielleicht auch ein paar Dozierende kennen!
+	% Der Treffpunkt ist bei der Neckarbrücke (\emph{vor} dem Gasthaus \glqq Neckarmüller\grqq).\\
+	Der Treffpunkt ist auf der Neckarinsel.\\
+	\seticon{faBus}~\textbf{Bushaltestelle:} Neckarbrücke (Linien 1--22)
+\fi
+
 
 % Nur damit die Seite richtig gebrochen wird.
 % TODO: Muss jedes jahr angepasst werden.
